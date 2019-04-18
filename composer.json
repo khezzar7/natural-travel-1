@@ -35,6 +35,7 @@
         "drupal/taxonomy_menu": "^3.4",
         "drupal/tvi": "^1.0@beta",
         "drupal/webform": "^5.2",
+        "drupal/workflow": "^1.1",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",

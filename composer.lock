@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1b9608e2e5c7a35d5fbcb23cd7b9079",
+    "content-hash": "4c74c98ac37deb6d83fcd8ea492913e1",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3546,6 +3546,85 @@
             }
         },
         {
+            "name": "drupal/workflow",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/workflow.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/workflow-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "97c2efcab4d59beb2ca80a7b776435ed9d135ab8"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1525039380",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Bastlynn",
+                    "homepage": "https://www.drupal.org/user/275249"
+                },
+                {
+                    "name": "Heine",
+                    "homepage": "https://www.drupal.org/user/17943"
+                },
+                {
+                    "name": "JacobSingh",
+                    "homepage": "https://www.drupal.org/user/68912"
+                },
+                {
+                    "name": "NancyDru",
+                    "homepage": "https://www.drupal.org/user/101412"
+                },
+                {
+                    "name": "eaton",
+                    "homepage": "https://www.drupal.org/user/16496"
+                },
+                {
+                    "name": "johnv",
+                    "homepage": "https://www.drupal.org/user/591042"
+                },
+                {
+                    "name": "jvandyk",
+                    "homepage": "https://www.drupal.org/user/2375"
+                },
+                {
+                    "name": "mfredrickson",
+                    "homepage": "https://www.drupal.org/user/31994"
+                },
+                {
+                    "name": "q0rban",
+                    "homepage": "https://www.drupal.org/user/31022"
+                }
+            ],
+            "description": "Defines a field type with Workflows, containing customizable state transitions.",
+            "homepage": "https://www.drupal.org/project/workflow",
+            "support": {
+                "source": "https://git.drupalcode.org/project/workflow"
+            }
+        },
+        {
             "name": "drush/drush",
             "version": "9.6.2",
             "source": {
@@ -6335,16 +6414,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.39.0",
+            "version": "v1.39.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "44890db076c3f0db2bb627a81b246b617bd2413a"
+                "reference": "23e7b6f0cfa1d7ba3de69f30d8e05cf957412fec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/44890db076c3f0db2bb627a81b246b617bd2413a",
-                "reference": "44890db076c3f0db2bb627a81b246b617bd2413a",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/23e7b6f0cfa1d7ba3de69f30d8e05cf957412fec",
+                "reference": "23e7b6f0cfa1d7ba3de69f30d8e05cf957412fec",
                 "shasum": ""
             },
             "require": {
@@ -6397,7 +6476,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-04-16T12:35:10+00:00"
+            "time": "2019-04-16T17:12:57+00:00"
         },
         {
             "name": "typo3/phar-stream-wrapper",
