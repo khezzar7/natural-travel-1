@@ -27,6 +27,7 @@
         "drupal/core": "^8.6.0",
         "drupal/devel": "^2.0",
         "drupal/field_group": "^1.0",
+        "drupal/field_permissions": "^1.0@RC",
         "drupal/geolocation": "^1.11",
         "drupal/kint": "^2.0",
         "drupal/module_filter": "^3.1",
