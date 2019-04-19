@@ -1,0 +1,11 @@
+content_access_roles_gids:
+  anonymous: 1
+  authenticated: 2
+  participant: 3
+  gestionnaire_de_programme: 4
+  webmaster: 5
+  administrator: 6
+_core:
+  default_config_hash: 7LkiviGITIpniIOOIzpuxR7r4XzqqYN_cwu0fb0kx1M
+content_access_node_type:
+  hotel: 'a:2:{s:8:"view_own";a:5:{i:0;s:13:"authenticated";i:1;s:11:"participant";i:2;s:25:"gestionnaire_de_programme";i:3;s:9:"webmaster";i:4;s:13:"administrator";}s:4:"view";a:5:{i:0;s:13:"authenticated";i:1;s:11:"participant";i:2;s:25:"gestionnaire_de_programme";i:3;s:9:"webmaster";i:4;s:13:"administrator";}}'
