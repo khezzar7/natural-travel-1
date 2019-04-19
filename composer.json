@@ -24,6 +24,7 @@
         "drupal/admin_toolbar": "^1.26",
         "drupal/backup_migrate": "^4.0",
         "drupal/chosen": "^2.7",
+        "drupal/config_split": "^1.4",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
         "drupal/devel": "^2.0",
