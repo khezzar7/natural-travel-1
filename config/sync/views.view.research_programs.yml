@@ -1,6 +1,6 @@
 uuid: b5ace1a2-b830-4f52-85a3-a7f9bf8942ec
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - field.storage.node.field_budget

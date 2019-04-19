@@ -42,6 +42,7 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_adresse: true
   field_email: true
   field_numero_telephone: true
   field_prix_chambre: true

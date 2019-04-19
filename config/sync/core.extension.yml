@@ -33,7 +33,6 @@ module:
   filter: 0
   geolocation: 0
   geolocation_google_places_api: 0
-  help: 0
   history: 0
   image: 0
   kint: 0
