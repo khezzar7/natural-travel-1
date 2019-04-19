@@ -1,0 +1,69 @@
+uuid: cdb7abf1-725a-41fd-9a89-caa7b7d5960a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.hotel.field_description
+    - field.field.node.hotel.field_email
+    - field.field.node.hotel.field_numero_telephone
+    - field.field.node.hotel.field_photo_hotel
+    - field.field.node.hotel.field_prix_chambre
+    - node.type.hotel
+  module:
+    - image
+    - text
+    - user
+id: node.hotel.full
+targetEntityType: node
+bundle: hotel
+mode: full
+content:
+  field_description:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_email:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_numero_telephone:
+    weight: 8
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_photo_hotel:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_prix_chambre:
+    weight: 7
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

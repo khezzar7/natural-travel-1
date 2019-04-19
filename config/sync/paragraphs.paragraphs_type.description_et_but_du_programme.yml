@@ -1,0 +1,9 @@
+uuid: 34f30f45-fe2c-4b96-899c-7be9f1daa6e0
+langcode: en
+status: true
+dependencies: {  }
+id: description_et_but_du_programme
+label: 'Description et but du programme'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

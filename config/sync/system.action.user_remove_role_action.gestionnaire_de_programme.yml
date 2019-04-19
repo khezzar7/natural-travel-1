@@ -1,0 +1,14 @@
+uuid: aec97ec9-f819-4816-b112-a336b6ebb725
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gestionnaire_de_programme
+  module:
+    - user
+id: user_remove_role_action.gestionnaire_de_programme
+label: 'Remove the Gestionnaire de programme role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gestionnaire_de_programme

@@ -1,0 +1,14 @@
+uuid: 9ebc9581-6ebb-49cc-80f8-c015be36b66a
+langcode: en
+status: true
+dependencies: {  }
+id: gestionnaire_de_programme
+label: 'Gestionnaire de programme'
+weight: -7
+is_admin: null
+permissions:
+  - 'create article content'
+  - 'create programmes_de_recherche content'
+  - 'edit own comments'
+  - 'use advanced search'
+  - 'use text format full_html'

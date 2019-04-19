@@ -1,0 +1,21 @@
+uuid: 5381825e-6fa2-48a9-be2b-05d9b3afd4ac
+langcode: en
+status: true
+dependencies: {  }
+id: webmaster
+label: Webmaster
+weight: -6
+is_admin: null
+permissions:
+  - 'administer comments'
+  - 'administer image styles'
+  - 'create article content'
+  - 'create field_budget'
+  - 'create programmes_de_recherche content'
+  - 'edit field_budget'
+  - 'edit own comments'
+  - 'edit own field_budget'
+  - 'use advanced search'
+  - 'use text format full_html'
+  - 'view field_budget'
+  - 'view own field_budget'

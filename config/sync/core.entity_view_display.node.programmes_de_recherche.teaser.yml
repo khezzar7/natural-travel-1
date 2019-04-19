@@ -1,0 +1,33 @@
+uuid: b49e48c5-4cae-4fae-b35d-b285f775f357
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.programmes_de_recherche.field_budget
+    - field.field.node.programmes_de_recherche.field_date_de_debut
+    - field.field.node.programmes_de_recherche.field_date_de_fin
+    - field.field.node.programmes_de_recherche.field_description_et_but_du_prog
+    - field.field.node.programmes_de_recherche.field_organisateurs_du_programme
+    - field.field.node.programmes_de_recherche.field_titre
+    - node.type.programmes_de_recherche
+  module:
+    - user
+id: node.programmes_de_recherche.teaser
+targetEntityType: node
+bundle: programmes_de_recherche
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_budget: true
+  field_date_de_debut: true
+  field_date_de_fin: true
+  field_description_et_but_du_prog: true
+  field_organisateurs_du_programme: true
+  field_titre: true
+  langcode: true

@@ -1,0 +1,24 @@
+uuid: 571a413f-8658-4b52-914e-844fbf689b97
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.evenements_precedents
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__evenements_precedents_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:evenements_precedents-block_1'
+settings:
+  id: 'views_block:evenements_precedents-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

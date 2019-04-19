@@ -1,0 +1,22 @@
+uuid: 895530a7-7b27-4190-8f90-b35e19e7731f
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - naturalTravel_theme
+_core:
+  default_config_hash: wBogGxijLiX3Gj0U9IH_rwuv0SqXH2fZPb8v3dRfPOI
+id: naturalTravel_theme_search
+theme: naturalTravel_theme
+region: footer_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

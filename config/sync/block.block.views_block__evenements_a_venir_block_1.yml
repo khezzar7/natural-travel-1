@@ -1,0 +1,24 @@
+uuid: 5a60d929-5f91-4b54-bb74-f42a199c3829
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.evenements_a_venir
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__evenements_a_venir_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:evenements_a_venir-block_1'
+settings:
+  id: 'views_block:evenements_a_venir-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: c1e6cde7-f3b0-4fa2-b596-927b3e84334f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.description_et_but_du_programme.field_programme_description
+    - paragraphs.paragraphs_type.description_et_but_du_programme
+  module:
+    - text
+id: paragraph.description_et_but_du_programme.default
+targetEntityType: paragraph
+bundle: description_et_but_du_programme
+mode: default
+content:
+  field_programme_description:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

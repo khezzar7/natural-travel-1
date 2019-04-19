@@ -1,0 +1,22 @@
+uuid: a6c5d71f-4d87-4655-9c5b-6e5f9838fe31
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - naturalTravel_theme
+_core:
+  default_config_hash: jSZmBCcqYQr4kmUhNkVI9zUV2XDiMifu16gBSehH8jg
+id: naturalTravel_theme_content
+theme: naturalTravel_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

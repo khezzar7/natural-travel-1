@@ -1,0 +1,11 @@
+uuid: fc2f8bb8-1bba-41c0-b907-6c4c166146f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.programmes_de_recherche
+id: node.programmes_de_recherche
+target_entity_type_id: node
+target_bundle: programmes_de_recherche
+default_langcode: site_default
+language_alterable: false

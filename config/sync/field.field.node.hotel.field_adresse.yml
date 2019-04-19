@@ -1,0 +1,25 @@
+uuid: 49615818-1a0d-499e-aae3-786c3243fa55
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_adresse
+    - node.type.hotel
+  module:
+    - address
+id: node.hotel.field_adresse
+field_name: field_adresse
+entity_type: node
+bundle: hotel
+label: Adresse
+description: 'Adresse de l''hôtel'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries: {  }
+  langcode_override: ''
+  field_overrides: {  }
+  fields: {  }
+field_type: address

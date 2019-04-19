@@ -1,0 +1,19 @@
+uuid: 678e719f-67b9-4e4a-acf8-a2aab8cee30d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_hotels_conference
+field_name: field_hotels_conference
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

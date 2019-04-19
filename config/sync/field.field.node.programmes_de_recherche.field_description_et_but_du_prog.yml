@@ -1,0 +1,31 @@
+uuid: 0f4fa3c4-4d85-46fe-9b05-b6c3df080fd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description_et_but_du_prog
+    - node.type.programmes_de_recherche
+    - paragraphs.paragraphs_type.description_et_but_du_programme
+  module:
+    - entity_reference_revisions
+id: node.programmes_de_recherche.field_description_et_but_du_prog
+field_name: field_description_et_but_du_prog
+entity_type: node
+bundle: programmes_de_recherche
+label: 'Description et but du programme'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      description_et_but_du_programme: description_et_but_du_programme
+    target_bundles_drag_drop:
+      description_et_but_du_programme:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

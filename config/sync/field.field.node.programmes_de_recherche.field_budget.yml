@@ -1,0 +1,23 @@
+uuid: 7e8a96f8-1e63-496b-9eb1-65efff9d3516
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_budget
+    - node.type.programmes_de_recherche
+id: node.programmes_de_recherche.field_budget
+field_name: field_budget
+entity_type: node
+bundle: programmes_de_recherche
+label: Budget
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: €
+  suffix: ''
+field_type: float

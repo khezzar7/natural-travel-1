@@ -1,0 +1,20 @@
+uuid: bfc98e34-9bab-444f-a600-1939526299d1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - naturalTravel_theme
+_core:
+  default_config_hash: XCWqSeTOh5bXVI1Ed_mwnOXna4OL408bB_FTwxqPEp8
+id: naturalTravel_theme_local_actions
+theme: naturalTravel_theme
+region: auto_hidden_block
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

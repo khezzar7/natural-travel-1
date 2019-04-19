@@ -1,0 +1,14 @@
+uuid: c80d204f-f93e-4623-87a1-783f2f271163
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gestionnaire_de_programme
+  module:
+    - user
+id: user_add_role_action.gestionnaire_de_programme
+label: 'Add the Gestionnaire de programme role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gestionnaire_de_programme

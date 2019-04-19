@@ -1,0 +1,28 @@
+uuid: 15f02a7d-cb6a-4d1a-b9db-c75635a60294
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotels_conference
+    - node.type.hotel
+    - node.type.programmes_de_recherche
+id: node.programmes_de_recherche.field_hotels_conference
+field_name: field_hotels_conference
+entity_type: node
+bundle: programmes_de_recherche
+label: 'Hôtels conférences'
+description: 'Proposition d''hôtel pour les conférences'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      hotel: hotel
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

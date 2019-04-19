@@ -1,0 +1,26 @@
+uuid: 7f42bff4-e4b0-42b1-b6a9-6bc15a09f913
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - naturalTravel_theme
+_core:
+  default_config_hash: _nAXC7GnTksGBQGHa4izzWtjiIB4BmokhG3r2X69Ew8
+id: naturalTravel_theme_account_menu
+theme: naturalTravel_theme
+region: auto_hidden_block
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

@@ -1,0 +1,146 @@
+uuid: 3bbdae19-e953-4139-88b4-7b47eedbead2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.programmes_de_recherche.field_budget
+    - field.field.node.programmes_de_recherche.field_date_de_debut
+    - field.field.node.programmes_de_recherche.field_date_de_fin
+    - field.field.node.programmes_de_recherche.field_description_et_but_du_prog
+    - field.field.node.programmes_de_recherche.field_hotels_conference
+    - field.field.node.programmes_de_recherche.field_organisateurs_du_programme
+    - field.field.node.programmes_de_recherche.field_titre
+    - node.type.programmes_de_recherche
+  module:
+    - datetime
+    - paragraphs
+    - path
+id: node.programmes_de_recherche.default
+targetEntityType: node
+bundle: programmes_de_recherche
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_budget:
+    weight: 12
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_date_de_debut:
+    weight: 9
+    settings:
+      date_order: DMY
+      time_type: '24'
+      increment: 15
+    third_party_settings: {  }
+    type: datetime_datelist
+    region: content
+  field_date_de_fin:
+    weight: 10
+    settings:
+      date_order: DMY
+      time_type: '24'
+      increment: 15
+    third_party_settings: {  }
+    type: datetime_datelist
+    region: content
+  field_description_et_but_du_prog:
+    type: paragraphs
+    weight: 11
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+    third_party_settings: {  }
+    region: content
+  field_hotels_conference:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_organisateurs_du_programme:
+    weight: 13
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  moderation_state:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  path:
+    type: path
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 8
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden:
+  field_titre: true

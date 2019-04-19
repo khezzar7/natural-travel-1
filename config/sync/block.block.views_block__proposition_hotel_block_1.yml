@@ -1,0 +1,32 @@
+uuid: 53a64781-c530-4e39-ba26-dc723f8c6cb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.proposition_hotel
+  module:
+    - ctools
+    - views
+  theme:
+    - bartik
+id: views_block__proposition_hotel_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:proposition_hotel-block_1'
+settings:
+  id: 'views_block:proposition_hotel-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      programmes_de_recherche: programmes_de_recherche
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

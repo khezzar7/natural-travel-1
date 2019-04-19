@@ -1,0 +1,30 @@
+cancel_confirm:
+  body: "[user:display-name],\r\n\r\nA request to cancel your account has been made at [site:name].\r\n\r\nYou may now cancel your account on [site:url-brief] by clicking this link or copying and pasting it into your browser:\r\n\r\n[user:cancel-url]\r\n\r\nNOTE: The cancellation of your account is not reversible.\r\n\r\nThis link expires in one day and nothing will happen if it is not used.\r\n\r\n--  [site:name] team"
+  subject: 'Account cancellation request for [user:display-name] at [site:name]'
+password_reset:
+  body: "[user:display-name],\r\n\r\n\r\nUne demande de réinitialisation du mot de passe de votre compte a été effectuée à l'adresse [site:name].\r\n\r\n\r\nVous pouvez maintenant vous connecter en cliquant sur ce lien ou en le copiant et le collant dans votre navigateur:\r\n\r\n[user:one-time-login-url]\r\n\r\n\r\nCe lien ne peut être utilisé qu'une seule fois pour vous connecter et vous mènera à une page où vous pourrez définir votre mot de passe. Il expire après un jour et rien ne se passera s'il n'est pas utilisé.\r\n\r\n--  [site:name] team"
+  subject: ' Informations de connexion de remplacement pour [user:display-name] a [site:name]'
+register_admin_created:
+  body: "[user:display-name],\r\n\r\nL'équipe [site:name]à validé votre demande. Vous pouvez maintenant vous connectez en cliquant sur le lient suivant:\r\n\r\n[user:one-time-login-url]\r\n\r\nCe lien ne peut être utilisé qu'une seule fois pour vous connecter et vous mènera à une page où vous pourrez définir votre mot de passe.\r\n\r\nAprès avoir défini votre mot de passe, vous pourrez vous connecter à l'adresse [site:login-url] grâce à :\r\n\r\nusername: [user:name]\r\nmot de passe: Votre mot de passe\r\n\r\n--  [site:name] team"
+  subject: 'Approbation de votre demande de compte à [site:name]'
+register_no_approval_required:
+  body: "[user:display-name],\r\n\r\nMerci de vous être inscrit à [site:name].\r\nVous pouvez maintenant vous connecter en cliquant sur ce lien ou en le copiant et le collant dans votre navigateur:\r\n\r\n[user:one-time-login-url]\r\n\r\nCe lien ne peut être utilisé qu'une seule fois pour vous connecter et vous mènera à une page où vous pourrez définir votre mot de passe.\r\n\r\nAprès avoir défini votre mot de passe, vous pourrez vous connecter sur [site:login-url] à l’aide de:\r\n\r\nusername: [user:name]\r\nmot de passe: Votre mot de passe\r\n\r\n--  [site:name] team"
+  subject: 'Account details for [user:display-name] at [site:name]'
+register_pending_approval:
+  body: "[user:display-name],\r\n\r\nMerci de vous être inscrit à [site:name]. \r\n\r\nVotre demande de compte est en attente d'approbation. Une fois qu'il aura été approuvé, vous recevrez un autre courrier électronique contenant des informations sur la procédure de connexion, la définition de votre mot de passe et d'autres informations.\r\n\r\n--  [site:name] team"
+  subject: 'Détails du compte pour [user:display-name] at [site:name] (en attente d''approbation de l''administrateur)'
+register_pending_approval_admin:
+  body: "[user:display-name] \r\na demandé à créer un compte.\r\n\r\n[user:edit-url]"
+  subject: 'Détails du compte pour [user:display-name] à [site:name] ( en attente d''approbation de l''administrateur)'
+status_activated:
+  body: "[user:display-name],\r\n\r\nVotre compte [site:name] a été activé.\r\n\r\nVous pouvez maintenant vous connecter en cliquant sur ce lien ou en le copiant et en le collant dans votre navigateur.:\r\n\r\n[user:one-time-login-url]\r\n\r\nCe lien ne peut être utilisé qu'une seule fois pour vous connecter et vous mènera à une page où vous pourrez définir votre mot de passe.\r\n\r\nAprès avoir défini votre mot de passe, vous pourrez vous connecter sur [site:login-url] à l’aide de:\r\n\r\nusername: [user:account-name]\r\n\r\nmot de passe: votre mot de passe\r\n\r\n--  [site:name] team"
+  subject: ' Détails du compte pour [user:display-name] sur [site:name] (approuvé)'
+status_blocked:
+  body: "[user:display-name],\r\n\r\nVotre compte [site:name] a été bloqué.\r\n\r\n--  [site:name] team"
+  subject: ' Détails du compte pour  sur [site:name] (bloqué)'
+status_canceled:
+  body: "[user:display-name],\r\n\r\nVotre compte à [site:name] a été annulé.\r\n\r\n--  [site:name] team"
+  subject: 'Détails du compte [user:display-name] at [site:name] (annulé)'
+langcode: en
+_core:
+  default_config_hash: IWzNdUVX2YSiflxrGSTLIiqTrhgIzbV2C-hRL5DniJM

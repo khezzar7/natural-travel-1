@@ -1,0 +1,18 @@
+uuid: 0b7156e6-79a2-4f64-8432-f483a9a376f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Hôtel
+type: hotel
+description: 'Hôtels pour l’hébergement des participants'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

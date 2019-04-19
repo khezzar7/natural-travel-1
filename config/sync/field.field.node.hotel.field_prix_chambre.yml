@@ -1,0 +1,23 @@
+uuid: ffeb8b3a-d23a-4c4f-a2dd-5b28f92e478d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prix_chambre
+    - node.type.hotel
+id: node.hotel.field_prix_chambre
+field_name: field_prix_chambre
+entity_type: node
+bundle: hotel
+label: 'Prix d''une chambre d''hôtel'
+description: 'Prix pour une chambre d''hôtel au fraie de l''organisateur ou au frais du participant (selon condition)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

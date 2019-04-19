@@ -1,0 +1,21 @@
+uuid: f160b546-0c49-4561-89e1-2dd8c8982f63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titre
+    - node.type.programmes_de_recherche
+  module:
+    - text
+id: node.programmes_de_recherche.field_titre
+field_name: field_titre
+entity_type: node
+bundle: programmes_de_recherche
+label: Titre
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
