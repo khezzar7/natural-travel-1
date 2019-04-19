@@ -22,6 +22,7 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/address": "^1.6",
         "drupal/admin_toolbar": "^1.26",
+        "drupal/administerusersbyrole": "^3.0@beta",
         "drupal/backup_migrate": "^4.0",
         "drupal/chosen": "^2.7",
         "drupal/config_split": "^1.4",
