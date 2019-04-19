@@ -10,5 +10,6 @@ permissions:
   - 'create article content'
   - 'create programmes_de_recherche content'
   - 'edit own comments'
+  - 'grant own content access'
   - 'use advanced search'
   - 'use text format full_html'
