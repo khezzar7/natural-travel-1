@@ -1,0 +1,23 @@
+uuid: c25ef2e1-dfbd-4a96-af79-55d6c8b1c062
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_participants_au_programme
+    - node.type.programmes_de_recherche
+id: node.programmes_de_recherche.field_participants_au_programme
+field_name: field_participants_au_programme
+entity_type: node
+bundle: programmes_de_recherche
+label: 'Participants au programme'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

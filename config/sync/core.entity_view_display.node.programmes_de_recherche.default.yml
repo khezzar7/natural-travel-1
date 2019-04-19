@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.programmes_de_recherche.field_description_et_but_du_prog
     - field.field.node.programmes_de_recherche.field_hotels_conference
     - field.field.node.programmes_de_recherche.field_organisateurs_du_programme
+    - field.field.node.programmes_de_recherche.field_participants_au_programme
     - field.field.node.programmes_de_recherche.field_titre
     - node.type.programmes_de_recherche
   module:
@@ -60,7 +61,7 @@ content:
     third_party_settings: {  }
     region: content
   field_hotels_conference:
-    weight: 9
+    weight: 7
     label: above
     settings:
       link: true
@@ -68,12 +69,21 @@ content:
     type: entity_reference_label
     region: content
   field_organisateurs_du_programme:
-    weight: 7
+    weight: 5
     label: above
     settings:
       link_to_entity: true
     third_party_settings: {  }
     type: string
+    region: content
+  field_participants_au_programme:
+    weight: 6
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
     region: content
   field_titre:
     weight: 0
