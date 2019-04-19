@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b35e198c8f0388cd88267c03ef510557",
+    "content-hash": "82c79ef2214983da3da47db55d8cdebe",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2334,6 +2334,61 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+            }
+        },
+        {
+            "name": "drupal/administerusersbyrole",
+            "version": "3.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/administerusersbyrole.git",
+                "reference": "8.x-3.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/administerusersbyrole-8.x-3.0-beta1.zip",
+                "reference": "8.x-3.0-beta1",
+                "shasum": "98295306074efd513e7562c34c87d1cd364caa18"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-beta1",
+                    "datestamp": "1552838580",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "AdamPS",
+                    "homepage": "https://www.drupal.org/user/2650563"
+                },
+                {
+                    "name": "mrfelton",
+                    "homepage": "https://www.drupal.org/user/305669"
+                },
+                {
+                    "name": "smokris",
+                    "homepage": "https://www.drupal.org/user/161913"
+                }
+            ],
+            "description": "Allows site builders to set up fine-grained permissions for allowing \"sub-admin\" users to edit and delete other users.",
+            "homepage": "https://www.drupal.org/project/administerusersbyrole",
+            "support": {
+                "source": "https://git.drupalcode.org/project/administerusersbyrole"
             }
         },
         {
@@ -9507,6 +9562,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/administerusersbyrole": 10,
         "drupal/field_permissions": 5,
         "drupal/tvi": 10
     },
